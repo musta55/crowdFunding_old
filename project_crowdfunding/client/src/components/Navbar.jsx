@@ -20,6 +20,7 @@ const Navbar = () => {
         <div className="w-[72px] h-full rounded-[20px] bg-[#4acd8d] flex justify-center items-center cursor-pointer">
           <img src={search} alt="search" className="w-[15px] h-[15px] object-contain"/>
         </div>
+      
       </div>
 
       <div className="sm:flex hidden flex-row justify-end gap-4">
