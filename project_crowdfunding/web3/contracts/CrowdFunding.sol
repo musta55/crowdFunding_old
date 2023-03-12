@@ -36,7 +36,7 @@ contract CrowdFunding {
         return numberOfCampaigns - 1;
     }
 
-    function donateToCampaign(uint256 _id) public payable {
+    function donateToCampaigns(uint256 _id) public payable {
         uint256 amount = msg.value;
 
         Campaign storage campaign = campaigns[_id];
@@ -67,3 +67,5 @@ contract CrowdFunding {
         return allCampaigns;
     }
 }
+
+// Deployed by thirdweb to 0x3ba5774177B72B2cD752EBC69BE447f89d5ede85 address
